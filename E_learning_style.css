@@ -1,0 +1,313 @@
+body{
+    background-color: #ffffff;
+
+}
+header{
+    position: absolute;
+    width: 1420px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+   display: flex;
+   align-items:center;
+   padding-top: 30px;
+   width: 100%;
+}
+ .logo{
+    padding-left: 70px;
+} 
+nav{
+    margin: auto;
+}
+nav li,a{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+    font-family: 'FSPro';
+    color: #00000E;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    font-size: 16px;
+    
+
+}
+select {
+    background-color: #ffffff;
+    border: none;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+    font-family: 'FSPro';
+    color: #00000E;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    font-size: 16px;
+}
+.login{
+   margin-left: 200px;
+}
+/* 
+button{
+    font: size 16px; 
+    font-family: 'FSPro';
+    color: #00000E;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: none;
+} */
+/* navbar {
+    
+  }
+
+  .nav-list li,a {
+    letter-spacing: -0.5px;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 30px;
+    color: #00000E;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-family:FSpro;
+    text-decoration: none;
+
+  } */
+
+  .sport{
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 70px;
+    top: -170px;
+    transform: rotate(20.56deg);
+ } 
+ .rectangle{
+position: absolute;
+width: 624px;
+height: 624px;
+left: 70px;
+top: 137px;
+background: linear-gradient(to rihgt, 
+gray 7.51%, 
+#ffffff 5%,
+ gray 70%);
+ }
+ /*circles*/
+  .circle{
+    position: absolute;
+    width: 126px;
+    height: 126px;
+clip-path: circle(50% at 50% 50%);
+    /* background */
+    background: #F4F4F8;
+  }
+ 
+ .c1 {
+left: 568px;
+top: 635px;
+}
+
+ .c2 { 
+left: 568px;
+top: 469px;
+}
+.c3 {
+left: 568px;
+top: 303px;
+}
+
+.c4 {
+left: 568px;
+top: 137px;
+}
+
+.c5{
+left: 402px;
+top: 635px;
+}
+
+.c6{
+left: 402px;
+top: 469px; 
+}
+
+.c7{
+left: 402px;
+top: 303px;   
+}
+
+.c8{
+left: 402px;
+top: 137px; 
+}
+
+.c9{
+left: 236px;
+top: 635px;  
+}
+
+.c10{
+left: 236px;
+top: 469px;  
+}
+
+.c11{
+left: 236px;
+top: 303px; 
+}
+
+.c12{
+left: 236px;
+top: 137px;   
+}
+.c13{
+left: 70px;
+top: 635px;
+}
+.c14{
+left: 70px;
+top: 469px;    
+}
+
+.c15{
+left: 70px;
+top: 303px;
+}
+.c16{
+left: 70px;
+top: 137px; 
+}
+
+.laptop{
+position: absolute;
+width: 543px;
+height: 543px;
+left:138px;
+top: 370px;
+}
+.report{
+position: absolute;
+width: 382.67px;
+height: 382.67px;
+left: 365.13px;
+top: 210px;
+}
+
+/* Effective english courses for kids and teenagers */
+
+
+/* .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+    
+    position: absolute;
+    width: 545px;
+    height: 450px;
+    left: 870px; 
+    top: 300px;
+    
+} */
+.textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 300px;
+    padding: 0px;
+   
+    left :870px;
+}
+.Effective{
+    
+width: 560px;
+height: 180px;
+
+font-family: 'FSPro';
+font-style: normal;
+font-weight: 600;
+font-size: 70px;
+line-height: 80px;
+color: #000000;
+}
+
+.text{
+    width: 456px;
+    height: 40px;
+    font-family: 'FSPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0, 0, 14, 0.55);  
+}
+.box {   
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+margin-top: 80px;
+width: 403px;
+height: 10px;
+border: none;
+
+}
+.groupEB input{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: c;
+    align-items: flex-start;
+    padding: 17px 10px;
+    gap: 10px;
+    
+    width: 250px;
+    height: 55px;
+    
+    border: 1px solid #D5D5D6;
+    border-radius: 7px;
+    
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+.GetB {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px 10px;
+    gap: 10px;
+    border: none;
+    width: 138px;
+    height: 55px;
+    margin-top: 15px ;
+    
+    /* violet */
+    
+    background: #5B51DE;
+    border-radius: 7px;
+    flex: none;
+order: 1;
+align-self: flex-start;
+flex-grow: 0;
+}
+  @font-face {
+    font-family: 'FSPro';
+    src: url('fonts/FontsFree-Net-SFProText-Regular.ttf');
+    
+  }
