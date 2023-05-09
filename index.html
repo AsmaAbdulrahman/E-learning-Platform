@@ -18,11 +18,11 @@
 <body>
  
     <header>
+
        <!--  nav bar -->
             <div class="logo">
                 <img src="images/Craftwork.png" alt="">
             </div>
-            <nav class="navbar" >
                 <ul>
                    <li> <select name="tutors" id="">
                         <option value="tutors">Tutors</option>
@@ -34,52 +34,61 @@
                     <li class="login"><a href="#">Login</a></li>
 
                 </ul>
-            </nav>
+        
+         <!--  sport image -->
+         <div>
+            <img class="sport" src="images/sports.png" alt="">
+        </div>
         <!--   <button><a href="#">Login</a></button> -->
     </header>
-   <!--  sport image -->
-    <div>
-        <img class="sport" src="images/sports.png" alt="">
-    </div>
-    <!-- rectangle and circles -->
-    <section class="rectangle">
-        <div class="circle c1"></div>
-        <div class="circle c2"></div>    
-        <div class="circle c3"></div>
-        <div class="circle c4"></div>
-        <div class="circle c5"></div>
-        <div class="circle c6"></div>
-        <div class="circle c7"></div>
-        <div class="circle c8"></div>
-        <div class="circle c9"></div>
-        <div class="circle c10"></div>
-        <div class="circle c11"></div>
-        <div class="circle c12"></div>
-        <div class="circle c13"></div>
-        <div class="circle c14"></div>
-        <div class="circle c15"></div>
-        <div class="circle c16"></div>
-    </section>
+   
+    <!--   جزء الصور اليسار    -->  
 
-         <!--      جزء الصور اليسار-->  
-
-    <div class="laptop">
-        <img src="images/online-study.png" alt="">
-    </div>
-    <div class="report"><img src="images/blood-report.png" alt="" ></div>
+       
+<div class="container">
+    <div class="row">
 
     
+
+    <!-- rectangle and circles -->
+    <div class="rectangle">
+
+    </div>
+    <!--left images-->
+         <div class="leftimg" >
+             <img class="laptop" src="images/online-study.png" alt="">
+             <img class="bag" src="images/school-bag.png" alt="">
+             <img   class="report" src="images/blood-report.png" alt="" >
+        </div>
+
+
+    
+
+
+
+      
          <!-- جزء النص اليمين-->  
         <div class="textarea">
-            <p class="Effective">Effective english courses for kids and teenagers</p>
+            <h2 class="Effective">Effective english courses for kids and teenagers</h2>
             <p class="text">With professional teachers, flexible learning schedules and courses for all levels you will speak confidently in no time.</p>
               <!--الزر و الايميل-->
             <div class="box">
-                    <p class="groupEB"><input type="email" name="email" id="Email" placeholder="Email" ></p>
-                    <button class="GetB" ><a  href="#">Get Started</a></button>
+                    <div class="groupEB">
+                       <!--  <span class="icon"><ion-icon name="mail-outline"></ion-icon></span> -->
+                        <input type="email" name="email" id="Email" placeholder="Email" >
+                       <!--  <label for="email">Email</label>
+ -->
+                    </div>
+                    <button class="GetButtun">Get Started</button>
            </div>
         </div>
         
+    </div>
+
+        
 </div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

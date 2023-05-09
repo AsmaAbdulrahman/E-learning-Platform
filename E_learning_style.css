@@ -6,15 +6,13 @@ font-family: 'FSPro';
 
 a{
     text-decoration: none;
+}
+
+ul a{
     color: #00000E; 
 }
 
 header{
-    position: absolute;
-    width: 1420px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
    display: flex;
    justify-content: space-between;
    align-items:center;
@@ -32,102 +30,84 @@ header{
     justify-content: center;
     align-items: center;
     list-style: none;
-    padding-right: 30 px;
     font-weight: 500;
 } 
 
-
 header ul li{
-    padding-right: 30px;
+    padding-right: 20px;
+    font-weight: 500;
+
+
 }
- .login{
-padding-left: 250px;
+ul a:hover{
+    padding: 10px 20px;
+    background:#5B51DE ;
+    color: #FFFFFF;
+    border-radius: 7px;
+
 }
-select {
-    background-color: #ffffff;
+header ul li select{
     border: none;
-    display: inline-block;
-    list-style: none;
-    padding: 0px 15px;
-    font-family: 'FSPro';
-    color: #00000E;
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: none;
-    letter-spacing: -0.5px;
-    font-size: 16px;
 }
-/* .login{
-   margin-left: 200px;
-} */
-/* 
-button{
-    font: size 16px; 
-    font-family: 'FSPro';
-    color: #00000E;
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: none;
-    background-color: #ffffff;
-    border: none;
-} */
-/* navbar {
-    
-  }
-
-  .nav-list li,a {
-    letter-spacing: -0.5px;
-    display: inline-block;
-    list-style: none;
-    padding: 0px 30px;
-    color: #00000E;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    font-family:FSpro;
-    text-decoration: none;
-
-  } */
-
   .sport{
     position: absolute;
     width: 370px;
     height: 370px;
-    left: 70px;
+    right: 30px;
     top: -170px;
     transform: rotate(20.56deg);
  } 
- .rectangle{
+
+/*  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px ;
+    position: absolute;
+    z-index: -1;
+    background: #5B51DE;
+    height: 624px;
+
+
+ }
+ .row {
+  
+   
+
+  } */
+    .rectangle{
+
 position: absolute;
 width: 624px;
 height: 624px;
-left: 70px;
+left: 90px;
 top: 137px;
-/* background: linear-gradient(to rihgt, 
-gray 7.51%, 
-#ffffff 5%,
- gray 70%); */
- background: linear-gradient(123.37deg, rgba(255, 255, 255, 0) 7.51%, #FFFFFF 51.18%, rgba(255, 255, 255, 0) 93.95%);
+background-image: url(images/Group\ 816.png);     
  }
- /*circles*/
+
+/* 
+ 
   .circle{
-    position: absolute;
+    position: relative;
     width: 126px;
     height: 126px;
-
     clip-path: circle(50% at 50% 50%);
-    /* background */
     background: #F4F4F8;
+    grid-template-columns: auto auto auto ;
+
+
   }
 
  .c1 {
-left: 568px;
-top: 635px;
-}
+ left: 568px;
+top: 469px;
+
+ }
 
  .c2 { 
 left: 568px;
-top: 469px;
+top: 635px;
 }
 .c3 {
 left: 568px;
@@ -194,55 +174,66 @@ top: 303px;
 .c16{
 left: 70px;
 top: 137px; 
-} 
+}  */
+
+.leftimg{
+    z-index: 10;
+    position: absolute;
+
+}
+
+/* .leftimg img{
+    position: absolute;
+    z-index: 100;
+    justify-content: center;} */
+  
+
+    
 
 .laptop{
-position: absolute;
-width: 543px;
-height: 543px;
-left:138px;
-top: 370px;
+
+    position: absolute;
+    width: 550px;
+    height:550px;
+    left: 220px;
+    top: 130px;    
+}
+.bag{
+    position: absolute;
+    width:380px;
+    height:380px;
+    left: -300;
+    top: 27px;
+    transform: rotate(360deg);
+    z-index: -1;
+    
+
 }
 .report{
-position: absolute;
-width: 382.67px;
-height: 382.67px;
-left: 365.13px;
-top: 210px;
+    position: absolute;
+    width: 350px;
+    height: 350.67px;
+    left: 490.12px;
+    top: 160px;
 }
 
-/* Effective english courses for kids and teenagers */
-
-
-/* .header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 0px;
-    
-    position: absolute;
-    width: 545px;
-    height: 450px;
-    left: 870px; 
-    top: 300px;
-    
-} */
 .textarea {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    position: absolute;
-    top: 300px;
     padding: 0px;
-   
+    gap: 40px;
+    position: absolute;
+    width: 545px;
+    height: 450px;
+    top: 212px;
     left :870px;
 }
+
 .Effective{
     
-width: 560px;
-height: 180px;
-
+width: 545px;
+height: 240px;
 font-family: 'FSPro';
 font-style: normal;
 font-weight: 600;
@@ -253,71 +244,79 @@ color: #000000;
 
 .text{
     width: 456px;
-    height: 40px;
+    height: 90px;
     font-family: 'FSPro';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    color: rgba(0, 0, 14, 0.55);  
-}
+    letter-spacing: -1px;
+    padding-top: 45px;
+    color: rgba(0, 0, 14, 0.55); }
+
+
+
+
+
 .box {   
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 15px;
-margin-top: 80px;
-width: 403px;
-height: 10px;
-border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    margin-top: 10px;
+    width: 403px;
+    height: 10px;
+    border: none;
 
 }
 .groupEB input{
-    box-sizing: border-box;
-
-    /* Auto layout */
-    
+    box-sizing: border-box;    
     display: flex;
     flex-direction: c;
     align-items: flex-start;
     padding: 17px 10px;
     gap: 10px;
-    
     width: 250px;
     height: 55px;
-    
     border: 1px solid #D5D5D6;
     border-radius: 7px;
-    
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: center;
-flex-grow: 0;
+ 
 }
 
-.GetB {
+.GetButtun {
     display: flex;
-    flex-direction: row;
+    flex-direction: c;
     align-items: center;
+    justify-content: center;
     padding: 17px 10px;
     gap: 10px;
     border: none;
+    outline: none;
     width: 138px;
     height: 55px;
-    margin-top: 15px ;
-    
-    /* violet */
-    
+   text-align: center;
+    text-decoration: none;   
     background: #5B51DE;
+    color: #FFFFFF;
     border-radius: 7px;
     flex: none;
-order: 1;
-align-self: flex-start;
-flex-grow: 0;
+    cursor: pointer;
+    font-weight: 500;
+    
 }
+
+.GetButtun:hover{
+    padding: 17px 10px;
+    background:transparent ;
+    color: #5B51DE;
+    border-radius: 7px;
+    border: 2px solid #5B51DE;
+    font-weight: 500;
+
+}
+
+
   @font-face {
     font-family: 'FSPro';
     src: url('fonts/FontsFree-Net-SFProText-Regular.ttf');
